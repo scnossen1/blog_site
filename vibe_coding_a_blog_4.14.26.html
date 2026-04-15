@@ -8,62 +8,64 @@
     </style>
 </head>
 <body>
-    <h1>Vibe Coding a Blog - 4.14.26</h1>
-    <p>
-        I have wanted to start and maintain a blog for a few years, but I have yet to stick with it. First I tried self hosted WordPress. 
-    </p>
-    <pre>
-                      __________________
-                      \                 \
-                        \                 \
+    <tt>
+        <h1>Vibe Coding a Blog - 4.14.26</h1>
+        <p>
+            I have wanted to start and maintain a blog for a few years, but I have yet to stick with it. First I tried self hosted WordPress. 
+        </p>
+        <pre>
+                          __________________
                           \                 \
                             \                 \
-           /-------------------------------------
-         //---------------//                  / |
-       //               //                  / __|
-     //               //                  / /  ||
-   //               //                  / /    ||
- //_______________//   o o            / /      ||      ___/-\___
-------------------------------------/   ------- |     |---------|
-| DO NOT PLAY |         | WORDPRESS |           |      | | | | |
-| ON OR AROUND|         | WEBSITES  |           |      | | | | |
-|--------------         ------------|           |      | | | | |
-|                                   |           |      | | | | |
--------------------------------------------------      |_______|
-    </pre>
-    <p>
-        So then I tried <a href="https://hub.docker.com/_/ghost">ghost</a>. This was actually usable and light weight, but still didnt captivate my fleeting child like wonder. Recently though, I came across <a href="https://berkshirehathaway.com/">Berkshire Hathaway's</a> site after a coworker brought it up. I thought there was something really cool about its simplicity.
-        What better way to learn, then by starting from scratch? Mash 6 sentences into Cloud and reverse engineer HTML. See below for my beautiful prompt, spelling and all.
-    </p>
-    <p>
-        <cite>
-            "I need help creating an extremely basic, static website. I want 2 template pages, first is a homepage with a briefe introduction and then links below to blog posts. Second is a blog post template. 
-            All font should be monospaced (something like Courier New). No dynamic opbjects. First page, the list of blog posts should be in a 2xX table that will be manually populated as I make more blog posts. Second, blog posts will be in the format TITLE - DATE. Text must be white, and background black."
-        </cite>
-    </p>
-    <p>
-        My experience with generative AI has been "garbage in, garbage out" and my prompt was definitely garbage. Warm, wet, smelly garbage.
-        And thus, my lack of understanding and knowledge once again produced a result that somewhat resembled what I thought I wanted, but was not what I actually wanted. 
-    </p>
-    <p>
-        Here are my initial learnings while vibe coding a blog.
-    </p>
-    <ol>
-        <li>CSS is a thing.</li>
-        <li>I wanted the page to load on almost any device imaginable.</li>
-        <li>Many basic features were not supported ~35 years ago. <a href="https://www.youtube.com/watch?v=yshNnrMsofU">Blah blah doctype, meta tags, attributes, CSS, tables blah blah.</a></li>
-        <li>Wait no, I do need CSS for "dark mode". My only exception to my desire for maximum compatibility, but Claud assured me older browsers would default to a readable state :)</li>
-        <li>Added 1 more only exception and made everything monospaced with CSS.</li>
-        <li>I will worry about mobile users at a later date (probably). For now they will suffer through a suboptimal experience.</li>
-        <li>Claud added a stupid emoji to the back button and I had to remove it.</li>
-    </ol>
-    <p>
-        #I enjoyed this. #You should try it too if you enjoyed this. #Maybe this will actually have more that one blog post before it dies. #This is definitely better than WordPress. 
-        #This is marginally better than ghost. #I'm glad I was born in current age because otherwise I think my family would have pushed me out to sea on an ice chunk like the Inuit did to their elderly (myth?).
-    </p>
-    
-    <br><br>
+                              \                 \
+                                \                 \
+               /-------------------------------------
+             //---------------//                  / |
+           //               //                  / __|
+         //               //                  / /  ||
+       //               //                  / /    ||
+     //_______________//   o o            / /      ||      ___/-\___
+    ------------------------------------/   ------- |     |---------|
+    | DO NOT PLAY |         | WORDPRESS |           |      | | | | |
+    | ON OR AROUND |         | WEBSITES  |           |      | | | | |
+    |--------------         ------------|           |      | | | | |
+    |                                   |           |      | | | | |
+    -------------------------------------------------      |_______|
+        </pre>
+        <p>
+            So then I tried <a href="https://hub.docker.com/_/ghost">ghost</a>. This was actually usable and light weight, but still didnt captivate my fleeting child like wonder. Recently though, I came across <a href="https://berkshirehathaway.com/">Berkshire Hathaway's</a> site after a coworker brought it up. I thought there was something really cool about its simplicity.
+            What better way to learn, then by starting from scratch? Mash 6 sentences into Cloud and reverse engineer HTML. See below for my beautiful prompt, spelling and all.
+        </p>
+        <p>
+            <cite>
+                "I need help creating an extremely basic, static website. I want 2 template pages, first is a homepage with a briefe introduction and then links below to blog posts. Second is a blog post template. 
+                All font should be monospaced (something like Courier New). No dynamic opbjects. First page, the list of blog posts should be in a 2xX table that will be manually populated as I make more blog posts. Second, blog posts will be in the format TITLE - DATE. Text must be white, and background black."
+            </cite>
+        </p>
+        <p>
+            My experience with generative AI has been "garbage in, garbage out" and my prompt was definitely garbage. Warm, wet, smelly garbage.
+            And thus, my lack of understanding and knowledge once again produced a result that somewhat resembled what I thought I wanted, but was not what I actually wanted. 
+        </p>
+        <p>
+            Here are my initial learnings while vibe coding a blog.
+        </p>
+        <ol>
+            <li>CSS is a thing.</li>
+            <li>I wanted the page to load on almost any device imaginable.</li>
+            <li>Many basic features were not supported ~35 years ago. <a href="https://www.youtube.com/watch?v=yshNnrMsofU">Blah blah doctype, meta tags, attributes, CSS, tables blah blah.</a></li>
+            <li>Wait no, I do need CSS for "dark mode". My only exception to my desire for maximum compatibility, but Claud assured me older browsers would default to a readable state :)</li>
+            <li>Added 1 more only exception and made everything monospaced with CSS.</li>
+            <li>I will worry about mobile users at a later date (probably). For now they will suffer through a suboptimal experience.</li>
+            <li>Claud added a stupid emoji to the back button and I had to remove it.</li>
+        </ol>
+        <p>
+            #I enjoyed this. #You should try it too if you enjoyed this. #Maybe this will actually have more that one blog post before it dies. #This is definitely better than WordPress. 
+            #This is marginally better than ghost. #I'm glad I was born in current age because otherwise I think my family would have pushed me out to sea on an ice chunk like the Inuit did to their elderly (myth?).
+        </p>
+        
+        <p>&nbsp;</p>
 
-    <p><a href="index.html"><- Back to Home</a></p>
+        <p><a href="index.html"><- Back to Home</a></p>
+    </tt>
 </body>
 </html>
