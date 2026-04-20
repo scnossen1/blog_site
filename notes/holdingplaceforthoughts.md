@@ -11,6 +11,7 @@ Words I have had to google the spelling of while writing this blog:
     appreciate
     ephemeral (I got this one right)
     ingredients
+    introduce
 
 Food blog ideas
     Sichuan Folk - Plano
