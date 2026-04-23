@@ -40,7 +40,7 @@ Git is a standalone open-source software and must be installed. This was a littl
 
 ## Funny things I learned about development:
 
-- Git is really the only version control system anyone seriously uses. Some Redditors tried to say otherwise, but were buried in downvotes. Fun fact https://www.jonesipl.com/article/genericide-the-case-of-kerosene/ about how Kerosene lost the trademark on its brand name of paraffin oil. (Genericide)
+- Git is really the only version control system anyone seriously uses. Some Redditors tried to say otherwise, but were buried in downvotes. [Fun fact](https://www.jonesipl.com/article/genericide-the-case-of-kerosene/) about how Kerosene lost the trademark on its brand name of paraffin oil. (Genericide)
 - It feels really silly to create and approve my own pull request after auditing so many change processes that require segregation of duties.
 - Devs are bullied by other devs for using Git CLI.
 - When you clone a repo, it creates a folder for that repo automatically even though you already created a folder with the same name, and it's very confusing when you didn't realize you were in a nested folder and that's why nothing was working.
