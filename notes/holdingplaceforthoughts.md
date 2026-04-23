@@ -2,7 +2,17 @@
     Tags to blog posts. (E.g. Random Thing - 1.1.11 -satire, food, technology, etc.-)
 
 Future Blog "Topic" List
+    Creating a web page that:
+        loads on almost any that supports HTTP
+        only adding elements that can fail back safely with no information loss (e.g. page/text styling that only fails to be igored)
     Moving from GitHub pages to self hosting the blog with docker & CICD pipeline
+    The problem with enterprise risk, control, and cyber/IT security professionals IMO.
+        Hammer vs tact
+        Lack of accountability
+        Lack of ownership
+        Lack of management/people skills
+        Over reliance on technical/engineering skills
+        Executive leadership not understanding how to propperly assess success/failure of enterprise risk, control, and cyber/IT security professionals
 
 Blog Writing Meathodology
     Idea generation
