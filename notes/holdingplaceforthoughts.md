@@ -13,6 +13,13 @@ Future Blog "Topic" List
         Lack of management/people skills
         Over reliance on technical/engineering skills
         Executive leadership not understanding how to propperly assess success/failure of enterprise risk, control, and cyber/IT security professionals
+    Making HTTP/0.9 compliant website
+        HTTP or later called HTTP/0.9 and the supported HTML tags were not well defined like modern standards. Work done at the time was mainly done on the transfer of data (HTTP) and not defining how it was written (HTML). From what I can dig up, origionally, only raw text was sent over the internet. It would be safe to say when Tim Berners-Lee first created HTTP (1991-1992), raw text and links (what made it revolutionary over just text) were implemented. Shortly after, things like title, headders, paragraphs, and lists were added. Because of the lack of documentation on early HTML, I have settled on using the earliest standardized list (1992) of supported tags as a stating point: https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html
+            Tags I am interested in using are <title>, <h1-6>, <p>, <ul>/<il>, <dl>/<dt>/<dd> <a>, and <listing> (now obsolete)
+        
+        My main goal is to use only what is present in this. Additionally, if I can confirm the site will fail gracefully back and minimal clarity is lost, I would like to add some more modern, but still very old HTML tags. Problem with this is, standards around HTML were not officially defined until HTML 2.0 (RFC 1866 https://www.ietf.org/rfc/rfc1866.txt) in 1995. So what do I know about HTML 1.0? There are many drafts, the earliest one I could find was June 1993 (https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt). Alot of what is in 
+            Tags that may be nice to use are <pre>, <i>, <b>, <u>, <tt> (now obsolete), <img>.
+    
 
 Blog Writing Meathodology
     Idea generation
