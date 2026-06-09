@@ -13,6 +13,7 @@ There are what I came to understand as I undertook this project. All definitions
     - [Charging NiMH](https://www.batteryuniversity.com/article/bu-408-charging-nickel-metal-hydride/)
     - [Nickle Based Battery Information](https://www.batteryuniversity.com/article/bu-203-nickel-based-batteries/)
 - Delta Peak: This is a behavior of NiMH batteries where, when the battery is full, the voltage will actually nose down. Detecting the decrease is how its determined to be full.
+- Nominal Voltage: 1.2V per NiMH cell or 7.2V per module
 - Reconditioning NiMH Modules: 
 - Balancing a Battery: 
 - Battery Charger: I went with the EV-Peak CQ3. It can do 4 modules at a time. It also has lots of features that make the reconditioning processes easier.
@@ -25,7 +26,6 @@ There are what I came to understand as I undertook this project. All definitions
     - [RC Forums](https://www.rcgroups.com/forums/showthread.php?647530-Delta-Peak-voltage-when-charging-NiMh-batteries): 3-4mV/C
     - [Prius Chat Forum](https://priuschat.com/threads/nimh-sensitivity-d-peak.139907/): 3.33mV/C
     - EV-Peak CQ3 Default: 7mV/C
-- Nominal Voltage: 1.2V per NiMH cell or 7.2V per module
 - Charge Rate:
 - Discharge Rate:
 - Reconditioning Loops:
