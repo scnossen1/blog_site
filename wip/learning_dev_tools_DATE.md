@@ -20,13 +20,13 @@ For my example I will be using GitHub, Visual Studio Code, and Git.
 
 ## GitHub
 
-I will not be going into depth on GitHub, but I will cover what I did to get this up and running. To start you will need a GitHub account, then create a new repo. Within the settings of that repo, we will need to copy down some credentials, GitHub username and personel access token (PAT), to be used with VSCode later. OAuth is also an option, but I found it useful to understand PATs and how permissions can be managed through them. A PAT functioned very simmilar to API tokens for me, if that helps add context.
+I will not be going into depth on GitHub, but I will cover what I did to get this up and running. To start you will need a GitHub account, then create a new repo. Within the settings of that repo, we will need to copy down some credentials, GitHub username and personel access token (PAT), to be used with VSCode later. OAuth is also an option, but I found it useful to understand PATs and how permissions can be managed through them. A PAT functioned very similar to API tokens for me, if that helps add context.
 
 ---
 
 ## Visual Studio Code (VSCode)
 
-Just install VSCode. Git and source control functionality are availible out of the box. Most of what's done in VSCode is during the integration step I go over later on.
+Just install VSCode. Git and source control functionality are available out of the box. Most of what's done in VSCode is during the integration step I go over later on.
 
 ---
 
@@ -38,9 +38,11 @@ Git is a standalone open-source software and must be installed. This was a littl
 
 ## Integrating All 3 Tools
 
+
+
 ## Funny things I learned about development:
 
-- Git is really the only version control system anyone seriously uses. Some Redditors tried to say otherwise, but were buried in downvotes. [Fun fact](https://www.jonesipl.com/article/genericide-the-case-of-kerosene/) about how Kerosene lost the trademark on its brand name of paraffin oil. (Genericide)
+- Git is really the only version control system anyone seriously uses. Some Redditors tried to say otherwise, but were buried in downvotes. This reminds me af a [fun fact](https://www.jonesipl.com/article/genericide-the-case-of-kerosene/) about how Kerosene lost the trademark on its brand name of paraffin oil. (Genericide)
 - It feels really silly to create and approve my own pull request after auditing so many change processes that require segregation of duties.
 - Devs are bullied by other devs for using Git CLI.
 - When you clone a repo, it creates a folder for that repo automatically even though you already created a folder with the same name, and it's very confusing when you didn't realize you were in a nested folder and that's why nothing was working.
@@ -49,4 +51,4 @@ Git is a standalone open-source software and must be installed. This was a littl
 
 ---
 
-Was this successful? Will my autocratic manager appreciate this post? Will I finally meet the minimum requirements to be considered a mammal capable of higher thought by developers? Yes? Never. Hopefully.
+Was this successful? Will my autocratic manager appreciate this post? Will I finally meet the minimum requirements to be considered a mammal capable of higher thought by developers? Yes, Never, Hopefully

@@ -1,6 +1,3 @@
-# Flask application
-app.py
-
 # Python virtual environment
 .venv/
 venv/

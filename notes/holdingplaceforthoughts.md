@@ -1,27 +1,36 @@
 "Features" to add
-    Tags to blog posts. (E.g. Random Thing - 1.1.11 -satire, food, technology, etc.-)
+    None atm
 
 Future Blog "Topic" List
     Creating a web page that:
         loads on almost any that supports HTTP
-        only adding elements that can fail back safely with no information loss (e.g. page/text styling that only fails to be igored)
-    Moving from GitHub pages to self hosting the blog with docker & CICD pipeline
-    The problem with enterprise risk, control, and cyber/IT security professionals IMO.
-        Hammer vs tact
-        Lack of accountability
-        Lack of ownership
-        Lack of management/people skills
-        Over reliance on technical/engineering skills
-        Executive leadership not understanding how to propperly assess success/failure of enterprise risk, control, and cyber/IT security professionals
-    Making HTTP/0.9 compliant website
-        HTTP or later called HTTP/0.9 and the supported HTML tags were not well defined like modern standards. Work done at the time was mainly done on the transfer of data (HTTP) and not defining how it was written (HTML). From what I can dig up, origionally, only raw text was sent over the internet. It would be safe to say when Tim Berners-Lee first created HTTP (1991-1992), raw text and links (what made it revolutionary over just text) were implemented. Shortly after, things like title, headders, paragraphs, and lists were added. Because of the lack of documentation on early HTML, I have settled on using the earliest standardized list (1992) of supported tags as a stating point: https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html
-            Tags I am interested in using are <title>, <h1-6>, <p>, <ul>/<il>, <dl>/<dt>/<dd> <a>, and <listing> (now obsolete)
-        
-        My main goal is to use only what is present in this. Additionally, if I can confirm the site will fail gracefully back and minimal clarity is lost, I would like to add some more modern, but still very old HTML tags. Problem with this is, standards around HTML were not officially defined until HTML 2.0 (RFC 1866 https://www.ietf.org/rfc/rfc1866.txt) in 1995. So what do I know about HTML 1.0? There are many drafts, the earliest one I could find was June 1993 (https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt). Alot of what is in 
-            Tags that may be nice to use are <pre>, <i>, <b>, <u>, <tt> (now obsolete), <img>.
+        only adding elements that can fail back safely with no information loss (e.g. page/text styling that only fails to be ignored)
+        Moving from GitHub pages to self hosting the blog with docker & CICD pipeline
+        The problem with enterprise risk, control, and cyber/IT security professionals IMO.
+            Hammer vs tact
+            Lack of accountability
+            Lack of ownership
+            Lack of management/people skills
+            Over reliance on technical/engineering skills
+            Executive leadership not understanding how to properly assess success/failure of enterprise risk, control, and cyber/IT security professionals
+        Making HTTP/0.9 compliant website
+            HTTP or later called HTTP/0.9 and the supported HTML tags were not well defined like modern standards. Work done at the time was mainly done on the transfer of data (HTTP) and not defining how it was written (HTML). From what I can dig up, originally, only raw text was sent over the internet. It would be safe to say when Tim Berners-Lee first created HTTP (1991-1992), raw text and links (what made it revolutionary over just text) were implemented. Shortly after, things like title, headers, paragraphs, and lists were added. Because of the lack of documentation on early HTML, I have settled on using the earliest standardized list (1992) of supported tags as a stating point: https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html
+                Tags that exist are <title>, <h1-6>, <p>, <ul>/<il>, <dl>/<dt>/<dd> <a>, and <listing> (NEEDS TO BE EXHAUSTIVE)
+            
+            My main goal is to use only what is present in this. Additionally, if I can confirm the site will fail gracefully back and minimal clarity is lost, I would like to add some more modern, but still very old HTML tags. Problem with this is, standards around HTML were not officially defined until HTML 2.0 (RFC 1866 https://www.ietf.org/rfc/rfc1866.txt) in 1995. So what do I know about HTML 1.0? There are many drafts, the earliest one I could find was June 1993 (https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt). a lot of what is in this is included in  the well defined in 2.0.
+                Tags that were added <pre>, <i>, <b>, <u>, <tt>, <img> (NEEDS TO BE EXHAUSTIVE)
+
+        Here is what I settled on for a template that goes over what all MAY be included in a html page I create.
+        And here is a breakdown:
+            HTTP/0.9 and its HTML napkin defined capabilities I am going to use: <title>, <h1-6>, <p>, <ul>/<il>, <dl>/<dt>/<dd> <a>. These all widely still supported, and acomplish MOST of what I need.
+            HTML/1.0 and what was partly defined: 
+
+
+    Creating a new samba docker container image
+        Already did, just need to actually write it....
     
 
-Blog Writing Meathodology
+Blog Writing Methodology
     Idea generation
         I use Notion to catch every blog title I want to write or even just the general gist. Sometimes I'll add the link to the piece that inspired it or a quote or some key points to remind myself why and what I wanted to talk about. This is constant and a separate task. Whenever it strikes it gets jotted down so I don't have to worry about remembering it.
     Outline
@@ -31,7 +40,7 @@ Blog Writing Meathodology
     Research
         This can come before or after the First Shitty Draft. I don't like to read too much about a topic I know a lot about before writing because I want my ideas to be original and then sometimes I'll see someone else make a point and I'll feel like I need to add that to my piece too. Time: 0--30 mins.
     Editing
-        This is where my real magic happens and when I realised that my brain likes to edit first because it's so mentally intensive things really switched around. Morning edits and evening First Shitty Drafts. Editing is where you ensure your writing voice shows through, change sentences to make them more succinct or jazzy (the ones we didn't waste time on in the FSD), cut the faff, ensure the piece flows properly, move things around to suit etc.
+        This is where my real magic happens and when I realized that my brain likes to edit first because it's so mentally intensive things really switched around. Morning edits and evening First Shitty Drafts. Editing is where you ensure your writing voice shows through, change sentences to make them more succinct or jazzy (the ones we didn't waste time on in the FSD), cut the faff, ensure the piece flows properly, move things around to suit etc.
     Feedback
     Pre Publish
         This is where I move everything to my blog, source images, insert relevant links, choose the best title, categories and tags, compress and title images.
