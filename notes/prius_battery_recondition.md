@@ -17,15 +17,17 @@ There are what I came to understand as I undertook this project. All definitions
 - Reconditioning NiMH Modules: 
 - Balancing a Battery: 
 - Battery Charger: I went with the EV-Peak CQ3. It can do 4 modules at a time. It also has lots of features that make the reconditioning processes easier.
+- Failsafes: Time, charge limit, tempature, Delta Peak.
 
 ## Specific Information I Gathered to (hopefully) Recondition My Battery
 - Capacity: Consensus ranges from 4,000mAh to 5,000mAh between Reddit and Prius Chat. I am aiming for 4,500mAh as a cutoff.
 - Internal Resistance: https://www.batteryuniversity.com/article/bu-902-how-to-measure-internal-resistance/
-- Delta Peak (mV): I have decided to go with 5mV/C (30 mV/Module in my case). My research points to lower more accurate but harder to determine when full. Higher easier to detect but less accurate. There is also the issue of overcharging/venting with a high value as the battery is pushed further before its determined to be full. Based on the "quality" of my charger and looking for a safe middle, I think 5mV/C is safe.  
+- Delta Peak (mV): I have decided to go with 5mV/C (30 mV/Module in my case). My research points to lower more accurate but harder to determine when full. Higher easier to detect but less accurate. There is also the issue of overcharging/venting with a high value as the battery is pushed further before its determined to be full. Based on the "quality" of my charger and looking for a safe middle, I think 5mV/C is safe. Another thing of note with Delta Peak, as you increase the charging rate (>1A) the delta peak will become easier to identify. This means you can raise the DP to allow for a greater charge and potential for more recovery of capacity. This does however lead to more heat genoration. Not increasing the charge rage can lead to "perpetual charging" where DP isnt caught, but power continues to pump into the module making exclusivly heat. This is where a tempature cutoff could be helpful.
     - [Battery University](https://www.batteryuniversity.com/article/bu-408-charging-nickel-metal-hydride/): 5mV/C
     - [RC Forums](https://www.rcgroups.com/forums/showthread.php?647530-Delta-Peak-voltage-when-charging-NiMh-batteries): 3-4mV/C
     - [Prius Chat Forum](https://priuschat.com/threads/nimh-sensitivity-d-peak.139907/): 3.33mV/C
     - EV-Peak CQ3 Default: 7mV/C
+- Minimum Cell Voltage: This is of greate debate. Staaying at or above 1V per cell is considered safe everwhere I read. However, going below 1V per cell can lead to damage if done incorrectly. Some people even recomeded going as low as .5V per cell. Those people whoever also recomended discharging at a much lower rate. ~.35mA.
 - Charge Rate:
 - Discharge Rate:
 - Reconditioning Loops:
