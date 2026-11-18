@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Making a (Kind of) 1993 Compliant Website - 11.18.26</title>
+
+    <style type="text/css">
+        body { background-color: #000000; color: #ffffff; font-family: "Courier New", Courier, monospace; }
+        a { color: #C0C0C0; }
+    </style>
+</head>
+<body bgcolor="#000000" text="#ffffff" link="#C0C0C0" vlink="#C0C0C0">
+    <h1>Making a (Kind of) 1993 Compliant Website - 11.18.26</h1>
+    <h2>The Goal</h2>
+    <p>The page should load on almost any device imaginable using only HTML tags that existed at the very beginning and only adding newer tags if I want them and they wont break the page.</p>
+    <h2>The Tag Lists</h2>
+
+    <h3>1992 HTML</h3>
+
+    <p>Nobody wrote HTML down properly at the start, so I picked the earliest official looking list I could find: the <a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html">CERN tag list from November 1992</a>. It origionally fit on a napkin.. Here is a list of what I plan to use</p>
+
+    <dl>
+    <dt>&lt;title&gt;</dt>
+    <dd>Name of the page and shows up in the tab or top browser bar.</dd>
+    <dt>&lt;h1&gt; to &lt;h6&gt;</dt>
+    <dd>Headings</dd>
+    <dt>&lt;p&gt;</dt>
+    <dd>A divider between two paragraphs.</dd>
+    <dt>&lt;a&gt;</dt>
+    <dd>Links</dd>
+    <dt>&lt;ul&gt; and &lt;li&gt;</dt>
+    <dd>Unordered and Bullet lists</dd>
+    <dt>&lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt;</dt>
+    <dd>Glossaries. Like this one. Very meta.</dd>
+    </dl>
+
+    <dl>
+    <dt>Pro</dt>
+    <dd>Simple and elegant. Every browser should understands it.</dd>
+    <dt>Con</dt>
+    <dd>No bold, no italics, no images, and no quotes.</dd>
+    </dl>
+
+    <h3>1993 HTML</h3>
+
+    <p>There is no real "HTML 1.0." The closest thing is a <a href="https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt">draft from June 1993</a> by Tim Berners-Lee and Dan Connolly. Here is a list of what I plan to use:</p>
+
+    <dl>
+    <dt>&lt;html&gt;, &lt;head&gt;, and &lt;body&gt;</dt>
+    <dd>HEAD providing info about the page, BODY holding what the reader sees, and HTML wrapping the entire content.</dd>
+    <dt>&lt;pre&gt;</dt>
+    <dd>Text is presented EXACTLY like it is typed. Spaces, line breaks, characters and all. Great for ascii art.</dd>
+    <dt>Text styles: &lt;b&gt;, &lt;i&gt;, &lt;u&gt;</dt>
+    <dd>Basic bold, italics, and underline.</dd>
+    <dl></dl>
+
+    <h3>HTML 2.0 (1995)</h3>
+
+    <p>I didn't end up wanting to use this, but figured it would be nice to link the first actual standard <a href="https://www.ietf.org/rfc/rfc1866.txt">HTML 2.0</a> from November 1995.</p>
+
+
+
+    <h2>CSS and Body Elements</h2>
+
+    <p>I am a huge fan of the black background with white monospace text, but there wasnt any native way to do this before CSS or other body elements were added in ~1996. Browsers do however skip portions of an HTML file that have unqkown tags. So I made the decission to use body and CSS to make some style changes, while reverting to the origional white background with black text of 1993 web pages.</p>
+
+    <h2>Notes</h2>
+
+    <ul>
+    <li>Here is my <a href="../pages/template.txt">final template</a> for all the pages I create if anyone is interested.</li>
+    <li>"HTML 1.0" is mostly just vibes and drafts. It's actually pretty silly to try and make a site that sticks to pre HTML 2.0 requirements.</li>
+    <li>Reading specs from 1993 was a fun technical dive.</li>
+    </ul>
+
+    <p><a href="../index.html">&lt;- Back to Home</a></p>
+
+</body>
+</html>
